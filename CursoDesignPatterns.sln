@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP", "SOLID\LSP\LSP.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{ABD6B9D0-DA53-4279-B04D-8E5782DFA461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "DesignPatterns\FactoryMethod\FactoryMethod.csproj", "{092F615A-0392-4CFB-AA9E-929F24794A94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{3D126C55-2C30-44D9-A422-10425B240CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D126C55-2C30-44D9-A422-10425B240CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D126C55-2C30-44D9-A422-10425B240CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092F615A-0392-4CFB-AA9E-929F24794A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092F615A-0392-4CFB-AA9E-929F24794A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092F615A-0392-4CFB-AA9E-929F24794A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092F615A-0392-4CFB-AA9E-929F24794A94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{C6D129AF-617E-46F5-85C5-F17BBB292549} = {5E4B205A-DC76-484D-85CA-9ECCEBD65E27}
 		{714ED38E-9631-4ACD-B671-62775EFE275D} = {5E4B205A-DC76-484D-85CA-9ECCEBD65E27}
 		{3D126C55-2C30-44D9-A422-10425B240CAC} = {5E4B205A-DC76-484D-85CA-9ECCEBD65E27}
+		{092F615A-0392-4CFB-AA9E-929F24794A94} = {ABD6B9D0-DA53-4279-B04D-8E5782DFA461}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A434367A-6AAC-42FC-BD2E-01045C793099}
