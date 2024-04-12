@@ -1,7 +1,5 @@
 namespace FactoryMethod.Vehicles;
 
 public class BikeTransport : Transport {
-	protected override IVehicle CreateTransport() {
-		return new Bike();
-	}
+	protected override IVehicle CreateTransport() => new Bike();
 }

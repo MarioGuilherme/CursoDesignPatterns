@@ -6,7 +6,7 @@ public class Car : IVehicle {
 	}
 
 	public void StartRoute() {
-		Console.WriteLine("Iniciamos o trajeto.");
 		this.GetCargo();
+		Console.WriteLine("Iniciamos o trajeto.");
 	}
 }

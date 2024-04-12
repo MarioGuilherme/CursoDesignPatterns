@@ -6,7 +6,7 @@ public class Motorcycle : IVehicle {
 	}
 
 	public void StartRoute() {
-		Console.WriteLine("Iniciando a entrega.");
 		this.GetCargo();
+		Console.WriteLine("Iniciando a entrega.");
 	}
 }
